@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="0SjF-d0jnQSbqupxxP_J">
-    <mxGraphModel>
+    <mxGraphModel dx="1366" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9I96Tr6XQUzJgsqpYTCq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="385" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="9I96Tr6XQUzJgsqpYTCq-2" value="grid - N*M, N&amp;amp;M - number of cells" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I96Tr6XQUzJgsqpYTCq-3" value="CEll" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="530" y="660" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9I96Tr6XQUzJgsqpYTCq-4" value="Number Of Cells = N*M" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="590" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I96Tr6XQUzJgsqpYTCq-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CELL PRO.&lt;/h1&gt;&lt;p&gt;1. Status: ALIVE | DEAD&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="550" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9I96Tr6XQUzJgsqpYTCq-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;GAME PRO.&lt;/h1&gt;&lt;p&gt;1. Status: INIT | InPROGRESS | ENDED&lt;/p&gt;&lt;p&gt;2. epoch: Incrimentor that increases with each cells evolution&lt;/p&gt;&lt;p&gt;3. State: All cells positios&amp;nbsp;&lt;/p&gt;&lt;p&gt;4. PrevStatus: State for EPOCH - 1&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="345" width="230" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
